@@ -36,7 +36,7 @@ export default function POSPage() {
     }
 
     // Inisialisasi Web Speech API
-    const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition;
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (!SpeechRecognition) {
       alert("Browser Anda tidak mendukung fitur suara (Gunakan Google Chrome).");
       return;

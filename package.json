@@ -29,7 +29,8 @@
     "typescript": "^5"
   },
   "overrides": {
-    "picomatch": "4.0.2"
+    "picomatch": "4.0.2",
+    "node-abi": "3.76.0"
   },
   "optionalDependencies": {
     "@tailwindcss/node": "^4.3.2",
